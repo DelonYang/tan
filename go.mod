@@ -3,6 +3,7 @@ module tan
 go 1.18
 
 require (
+	github.com/BurntSushi/toml v0.3.1
 	github.com/gin-gonic/gin v1.8.1
 	github.com/google/uuid v1.3.0
 	github.com/natefinch/lumberjack v2.0.0+incompatible

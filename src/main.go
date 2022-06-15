@@ -1,6 +1,8 @@
 package main
 
 import (
+	"fmt"
+	"tan/src/config"
 	"tan/src/router"
 	"tan/src/util/log"
 
@@ -13,5 +15,5 @@ func main() {
 	defer logger.Sync()
 
 	r := router.NewRouter()
-	r.Run(":8090")
+	r.Run(fmt.Sprintf(":%d", config.Conf.Common.Port))
 }

@@ -1,0 +1,11 @@
+[COMMON]
+port = 8090
+
+[MySQL]
+url      = "localhost:3306"
+auth     = "delon:ajklsdfjfalkdjsf"
+dbname   = "test"
+
+[Redis]
+url                             = "127.0.0.1:6379"
+auth                            = "123"
